@@ -1,0 +1,22 @@
+[project]
+name = "project-on-20-sep"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "inju", email = "inju.khadka123@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.15.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+project-on-20-sep = "project_on_20_sep:main"
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
